@@ -72,7 +72,7 @@ export const Pokemon = () => {
         <div className="pokemon-search">
           <input
             type="text"
-            placeholder="search Pokemon"
+            placeholder="Search Pokemon"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
